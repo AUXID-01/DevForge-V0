@@ -1,0 +1,8 @@
+python -m venv venv
+.\venv\Scripts\Activate.ps1 ->  activate venv
+
+
+python -m pytest schemas/tests -> TEST 1
+
+python -m scripts.run_tone_module
+

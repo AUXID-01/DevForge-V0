@@ -1,0 +1,324 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+virtualenv/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Environments
+.env
+.env.local
+.env.*.local
+.venv
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# Pytype
+.pytype/
+
+# Cython
+*.c
+*.cpp
+*.h
+*.html
+
+# Distribution / packaging
+*.whl
+*.tar.gz
+
+# Audio Files (large files)
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+*.aac
+*.wma
+audio_samples/
+recordings/
+test_audio/
+
+# Model Files (large files)
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pb
+*.onnx
+*.tflite
+models/
+checkpoints/
+weights/
+*.bin
+*.safetensors
+
+# Data files
+*.csv
+*.json
+*.parquet
+*.feather
+*.hdf5
+*.h5
+data/
+datasets/
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+*.log.*
+log/
+
+# Cache
+.cache/
+*.cache
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Windows
+*.lnk
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+
+# Project specific
+# Whisper models (downloaded automatically)
+whisper_models/
+*.pt
+*.bin
+
+# NLTK data (downloaded automatically)
+nltk_data/
+
+# spaCy models (downloaded automatically)
+*.tar.gz
+en_core_web_*
+
+# Hugging Face cache
+.cache/
+huggingface/
+transformers_cache/
+
+# TensorBoard
+runs/
+*.tfevents.*
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+
+# Profiling
+*.prof
+*.pstats
+
+# Testing
+.pytest_cache/
+.tox/
+.hypothesis/
+test-results/
+test-reports/
+
+# Documentation builds
+docs/_build/
+docs/.doctrees/
+site/
+
+# Node modules (if any frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local configuration
+config.local.py
+settings.local.py
+.local/
+
+# IDE - Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# IDE - Vim
+*.swp
+*.swo
+*.un~
+
+# IDE - Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Project specific folders
+# ASR-Audio
+ASR-Audio/audio_samples/
+ASR-Audio/recordings/
+ASR-Audio/test_audio/
+ASR-Audio/models/
+ASR-Audio/cache/
+
+# speech-dictation-engine
+speech-dictation-engine/models/
+speech-dictation-engine/cache/
+speech-dictation-engine/checkpoints/
+speech-dictation-engine/data/
+
+# unified_pipeline
+unified_pipeline/audio_samples/
+unified_pipeline/recordings/
+unified_pipeline/logs/
+unified_pipeline/cache/
+unified_pipeline/models/
+
+# toneAndOrchestration
+toneAndOrchestration/models/
+toneAndOrchestration/cache/
+toneAndOrchestration/logs/
+
+# DEvf
+DEvf/models/
+DEvf/cache/
+DEvf/logs/
+DEvf/data/
+
+# Large output files
+outputs/
+results/
+experiments/
+runs/
+
+# Secrets and API keys
+*.key
+*.pem
+*.p12
+secrets/
+.secrets
+api_keys.txt
+credentials.json
+.env.secret
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Compressed files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Large text files
+*.txt.log
+*.txt.bak
+
+# Backup files
+backup/
+backups/
+*.backup
+

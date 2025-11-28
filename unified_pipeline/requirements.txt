@@ -1,0 +1,33 @@
+# Core web framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+websockets>=12.0
+
+# Data handling
+numpy>=1.24.0
+pydantic>=2.0.0
+
+# Component dependencies (required by pipeline modules)
+# Grammar module dependencies
+spacy>=3.8.0
+# Note: After installing, run: python -m spacy download en_core_web_sm
+
+# PyTorch and transformers (for grammar correction)
+# Install CPU version on Windows: pip install torch --index-url https://download.pytorch.org/whl/cpu
+# Or install CUDA version: pip install torch --index-url https://download.pytorch.org/whl/cu121
+torch>=2.0.0
+transformers>=4.30.0
+
+# NLP dependencies
+nltk>=3.8.0
+# Note: After installing, download NLTK data: python -c "import nltk; nltk.download('punkt'); nltk.download('averaged_perceptron_tagger')"
+
+# Tone transformation dependencies
+contractions>=0.1.0
+
+# Additional component dependencies
+# Install from component requirements.txt files for complete setup:
+# - ASR-Audio/requirements.txt (for openai-whisper, sounddevice, webrtcvad)
+# - speech-dictation-engine/requirements.txt (for full grammar engine dependencies)
+# - toneAndOrchestration/requirements.txt (for tone transformation dependencies)
+
